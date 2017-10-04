@@ -7,7 +7,7 @@ console.log('scroller loaded');
 
 (function(){
 var showMoreBtnClickDelay = 500;
-var showMoreDomQuery = 'ul.lotusStream li.pagingHandler a, ul.lotusPagingBottom li.pagingHandler a.streamMore';
+var showMoreDomQuery = 'ul.lotusStream li.pagingHandler a, ul.lotusPagingBottom li.pagingHandler a.streamMore:not(.lotusHidden)';
 var infiniteScrollThreshold = 700;
 
   var scrollEvent,scrollTimeout = false, scrollCount=0,intervalCount=0 ;
