@@ -19,4 +19,5 @@ Infinite scrolling for the activity stream. That's it.
 ## Common files - /core
 Contains common utils for checking if DOM is ready and adding CSS to the page. Used by both plugins.
 
-## Bonus - also works in Connections on-prem if files are included in the header.jsp
+## Bonus
+Also works in Connections on-prem if files are included in the header.jsp
