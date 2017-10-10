@@ -1,0 +1,24 @@
+{
+  "name": "Activity Stream Infinite Scroll",
+  "title": "Activity Stream Infinite Scroll",
+  "description": "Auto matically loads more activity stream entries when the page is scrolled to the bottom",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "name": "Activity Stream Infinite Scroll",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage",
+      "payload": {
+        "include-repo": {
+          "name": "cc-customisations"
+        },
+        "include-files": [
+          "core/utils.js",
+          "as-scroller/main.js"
+        ]
+      }
+    }
+  ]
+}
