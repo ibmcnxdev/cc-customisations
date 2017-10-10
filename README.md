@@ -15,7 +15,8 @@ The script first checks to see if it's in Homepage on load. Then it finds the RS
 ## 2. Activity Stream Infinite Scroll - /as-scroller
 Infinite scrolling for the activity stream. That's it.
 
-
+#  
+#  
 ## Common files - /core
 Contains common utils for checking if DOM is ready and adding CSS to the page. Used by both plugins.
 
