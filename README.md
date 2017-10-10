@@ -1,6 +1,6 @@
 # Extensions:
 
-## 1. Activity stream notifier - /as-notifier
+## 1. Activity stream notifier - `/as-notifier`
 Plugin to indicate whether there are new updates, and how many new updates are there, in the activity stream. Originally written for Connections on-prem, works for Connections Cloud without any changes. 
 
 ### What does it do?
@@ -12,7 +12,7 @@ Plugin to indicate whether there are new updates, and how many new updates are t
 The script first checks to see if it's in Homepage on load. Then it finds the RSS feed URL for the currently selected updates stream (Discover, I'm following, etc). It then periodically polls said RSS feed to retrieve any entries since the time the page was loaded. If it finds any new entries, it shows a bar-button at the top indicating the number of new updates and updates the document.title allowing you to see if there are any updates without having to switch to the tab. 
 
 
-## 2. Activity Stream Infinite Scroll - /as-scroller
+## 2. Activity Stream Infinite Scroll - `/as-infinite-scroller`
 Infinite scrolling for the activity stream. 
 
 ### How?
@@ -20,7 +20,7 @@ By generating a click event on the "Show More" button when the user scrolls to a
 
 #  
 
-## Common files - /core
+## Common files - `/core`
 Contains common utils for checking if DOM is ready and adding CSS to the page. Used by both plugins.
 
 ## Bonus
