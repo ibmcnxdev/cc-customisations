@@ -16,7 +16,7 @@
         },
         "include-files": [
           "core/utils.js",
-          "as-scroller/main.js"
+          "as-infinite-scroller/main.js"
         ]
       }
     }
