@@ -1,0 +1,24 @@
+{
+  "name": "Activity Stream Notifier",
+  "title": "Activity Stream Notifier",
+  "description": "Checks activity stream for updates",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "name": "Activity Stream Notifier",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage",
+      "payload": {
+        "include-repo": {
+          "name": "cc-customisations"
+        },
+        "include-files": [
+          "core/utils.js",
+          "as-notifier/main.js"
+        ]
+      }
+    }
+  ]
+}
